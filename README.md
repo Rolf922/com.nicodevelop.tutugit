@@ -1,6 +1,7 @@
 # Documentation du tuto Github avec Git
 
 ## Initialisation du depot
+
 ``` Bash
 git init
 git remote add origin SSH_REPO
@@ -20,4 +21,10 @@ Description de notre commit avec des informations sur l'evolution du projet
 git add .
 git commit -m "Titre du commit"
 git push origin main
+```
+
+## creation d'une branche
+
+```bash
+git checkout -b NOM_BRANCHE
 ```
